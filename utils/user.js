@@ -3,6 +3,9 @@ const users = [];
 function userJoin(id, username, room){
     const user = {id, username, room};
 
+    user.username = user.username.toLowerCase().trim()
+    user.room = user.room.toLowerCase().trim()
+
     users.push(user);
 
     return user;
