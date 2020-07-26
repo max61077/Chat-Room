@@ -1,0 +1,26 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "Realtime Chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "nodemon"
+  ],
+  "author": "Max",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "12.16.3",
+    "npm": "6.14.7"
+  }
+}
